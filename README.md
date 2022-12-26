@@ -1,4 +1,4 @@
-# tyranno
+# tyranno ( AWS EC2 + Docker )
 http://35.78.117.140:8112
 
 # tyrannokorea ( AWS S3 + CloudFront ) 
