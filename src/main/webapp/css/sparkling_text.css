@@ -1,0 +1,138 @@
+
+#colophon {
+	margin: 3rem 1rem 3rem 1rem;
+	border: 2px solid #e3e4e8;
+	border-radius: 36px;
+	background-color: transparent;
+	padding: 3rem 1rem 3rem 1rem;
+	color: #222;
+	box-shadow: 5px 5px 5px 5px #f8f9fa;
+	transition: 1.5s;
+}
+.bold_tetext {
+	font-weight: 900;
+	font-size: 1.2rem;
+}
+.bb_t {
+	font-weight: 800;
+	background: linear-gradient(to top, #e1ead5 50%, transparent 50%);
+}
+.bb_t:hover {
+	font-weight: 800;
+	background: linear-gradient(to top, #fff98e 50%, transparent 50%);
+	transition: 2s;
+}
+#colophon:hover {
+	box-shadow: 10px 10px 10px 10px #dedfe0;
+	transition: 1.5s;
+}
+.togglefadeIn {
+    animation-name: fadeIn;
+    animation-duration: 0.75s;
+    -webkit-animation-duration: 0.75s;
+    animation-fill-mode: forwards;
+}
+
+.togglefadeOut {
+    animation-name: fadeOut;
+    animation-duration: 0.75s;
+    -webkit-animation-duration: 0.75s;
+    animation-fill-mode: forwards;
+}
+
+/* .shiny {
+    animation-name: shiny;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.reverseShiny {
+    animation-name: Rshiny;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+} */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.35;
+    }
+}
+
+
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.35;
+    }
+}
+
+
+@keyframes shiny {
+    0% {
+        opacity: 0.6;
+        /* color: #f0d0f9; #222;*/
+    }
+    25% {
+       opacity: 0.7;
+    }
+    50% {
+       opacity: 0.8;
+    }
+
+    75% {
+       opacity: 0.9;
+    }
+
+    100% {
+       opacity: 0.7;
+    }
+}
+
+@keyframes Rshiny {
+    0% {
+        opacity: 0.9;
+    }
+    25% {
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 0.7;
+    }
+    75% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 0.8;
+    }
+}
+
+.content {
+   /*  position: absolute; */
+    line-height: 1.28em;
+    z-index: 2;
+    color: #222;
+    /* opacity: 0.9; */
+}
+
+
+/* #shadow {
+    position: fixed;
+    background-color: red;
+    width: 100vw;
+    height: 25%;
+    top: -26%;
+    left: 0px;
+    background-blend-mode: multiply;
+    display: block;
+    opacity: 0.35;
+    box-shadow: 0px 200px 200px #ffff00;
+} */
